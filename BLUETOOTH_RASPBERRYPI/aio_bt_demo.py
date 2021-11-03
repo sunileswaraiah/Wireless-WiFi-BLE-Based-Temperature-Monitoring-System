@@ -35,8 +35,8 @@ service_matches = find_service( address = addr )
 
 buf_size = 1024;
 
-ADAFRUIT_IO_KEY = 'aio_YuSo01Mzb2qIAZxgbFzkFve4xzVb'
-ADAFRUIT_IO_USERNAME = 'my_pi'
+ADAFRUIT_IO_KEY = 'Key from ada fruit'
+ADAFRUIT_IO_USERNAME = 'User Name from ada fruit'
 
 if len(service_matches) == 0:
     print("couldn't find the SampleServer service =(")
